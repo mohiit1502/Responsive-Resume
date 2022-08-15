@@ -8,7 +8,12 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>   
     <style>
-       
+        @media only screen and (max-width:673px){
+        .main-content{
+            grid-template-columns: repeat(1,1fr);
+        }
+       }
+       @media only screen and (min-width:674px){
      .main-content{
            min-height:1000px;
            width: 90%;
@@ -16,6 +21,7 @@
            margin: 20px auto;
            grid-template-columns: 300px 700px;
         }
+    }
     
 .left-section{
     grid-column: 300px;
@@ -116,7 +122,7 @@ section{
             <div class="contact-info">
                 <div class="social-media">
                     <a class="icon" href="https://github.com/mnagar1207"><ion-icon name="logo-github"></ion-icon></a>
-                    <a class="icon" ref="linkedin.com/.in/monika-nagar-586b9aa7"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a class="icon" href="linkedin.com/.in/monika-nagar-586b9aa7"><ion-icon name="logo-linkedin"></ion-icon></a>
                     <a class="icon" href="https://www.facebook.com/monika.nagar.5811"><ion-icon name="logo-facebook"></ion-icon></a>
                 </div>
             </div>
@@ -129,17 +135,17 @@ section{
             <div class="skills"> 
                 <h2 class="skill-title">SKILLS</h2>
                 <div class="skill-name"> HTML </div>
-                <input type="range" class="progress-bar" min="1" max="100">
+                <input type="range" class="progress-bar" min="1" max="10">
                 <div class="skill-name"> CSS</div>
-                <input type="range" class="progress-bar" min="1" max="100">
-                <div class="skill-name"> Nodes</div>
-                <input type="range" class="progress-bar" min="1" max="100">
-                <div class="skill-name"> MySQL</div>
-                <input type="range" class="progress-bar" min="1" max="100">
+                <input type="range" class="progress-bar" min="1" max="10">
+                <div class="skill-name"> NODES</div>
+                <input type="range" class="progress-bar" min="1" max="10">
+                <div class="skill-name"> MYSQL</div>
+                <input type="range" class="progress-bar" min="1" max="10">
                 <div class="skill-name"> JAVASCRIPT</div>
-                <input type="range" class="progress-bar" min="1" max="100">
-                <div class="skill-name"> React</div>
-                <input type="range" class="progress-bar" min="1" max="100">
+                <input type="range" class="progress-bar" min="1" max="10">
+                <div class="skill-name"> REACT</div>
+                <input type="range" class="progress-bar" min="1" max="10">
             </div>
         </div>
         </section>        
@@ -153,11 +159,11 @@ section{
                     <h2 class="right-title"> Education</h2>
                     <table style="padding:0.5rem; width:100%">
                         <tr>
-                            <td style="width:70%">MASTERS IN COMPUTER APPLICATIONS</td>                        <td colspan="2"></td>
+                            <td style="width:70%">MASTERS IN COMPUTER APPLICATIONS</td>
                             <td colspan="3">GJU, Hisar</td>
                         </tr>
                         <tr>
-                            <td style="width:70%">BACHELORS IN COMPUTER APPLICATIONS</td>                        <td colspan="2"></td>
+                            <td style="width:70%">BACHELORS IN COMPUTER APPLICATIONS</td>                 
                             <td colspan="3">CRM JAT COLLEGE, Hisar</td>
                         </tr>
                     </table>
